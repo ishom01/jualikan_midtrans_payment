@@ -36,7 +36,7 @@ xmlHttp.onreadystatechange = function() {
     callback(xmlHttp.responseText);
   }
 }
-xmlHttp.open("post", "[YOUR_CHECKOUT.PHP_URL]");
+xmlHttp.open("post", "http://jualikan.herokuapp.com/jualIkan/checkout.php");
 xmlHttp.send(JSON.stringify(requestBody));
   }
 </script>
